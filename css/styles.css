@@ -1,5 +1,5 @@
 body{
-    background-color: 	rgb(40,40,40);
+    background-color: black;
 }
 h1{
     color: seashell;
@@ -21,3 +21,36 @@ font-weight: 700;
 font-size: x-large;
 font-family: 'Gloria Hallelujah', sans-serif;
   }
+  
+  .hawaiian{
+    border-radius: 100px;
+  }
+
+  .veggies{
+    border-radius: 30px;
+  }
+
+  .whole{
+      background-image: url('../brown.jpg');
+  }
+
+  #hawaian-pic{
+      color: seashell;
+      font-weight: 700;
+font-size: x-large;
+font-family: 'Gloria Hallelujah', sans-serif;
+  }
+
+  #vegeterian-image{
+      color: seashell;
+      font-weight: 700;
+font-size: x-large;
+font-family: 'Gloria Hallelujah', sans-serif;
+  }
+  #chicken-image{
+    color: seashell;
+    font-weight: 700;
+font-size: x-large;
+font-family: 'Gloria Hallelujah', sans-serif;
+}
+  
