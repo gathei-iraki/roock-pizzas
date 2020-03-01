@@ -11,10 +11,6 @@ font-weight: 700;
 font-size: x-large;
 }
 
-#Intro-pic:hover{
-    transform: scale(1.1);
-  }
-
   #Intro-words{
  color: seashell;
 font-weight: 700;
@@ -41,12 +37,25 @@ font-size: x-large;
 font-family: 'Gloria Hallelujah', sans-serif;
   }
 
+  #hawaian-pic:hover{
+    transform: scale(1.1);
+
+  }
+
   #vegeterian-image{
       color: seashell;
       font-weight: 700;
 font-size: x-large;
 font-family: 'Gloria Hallelujah', sans-serif;
   }
+
+
+  #vegeterian-image:hover{
+    transform: scale(1.1);
+
+  }
+
+
   #chicken-image{
     color: seashell;
     font-weight: 700;
@@ -54,3 +63,15 @@ font-size: x-large;
 font-family: 'Gloria Hallelujah', sans-serif;
 }
   
+
+#chicken-image:hover{
+  transform: scale(1.1);
+}
+
+.types-title{
+    color: seashell;
+    font-weight: 700;
+font-size: x-large;
+font-family: 'Gloria Hallelujah', sans-serif;
+text-align: center;
+}
