@@ -75,3 +75,10 @@ font-size: x-large;
 font-family: 'Gloria Hallelujah', sans-serif;
 text-align: center;
 }
+
+#form{
+  color: seashell;
+  font-weight: 700;
+  font-size: x-large;
+  font-family: 'Gloria Hallelujah', sans-serif;
+}
