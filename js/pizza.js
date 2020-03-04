@@ -1,51 +1,37 @@
-$().ready(function () {
-    $("#vegeterian-image").click(function () {
-      $("#vegeterian-whole").toggle();
-      $("#vegeterian-text").toggle();
-    });
+function getFlavour(){
+  var flavour = document.getElementById("flavour").value
 
-    $("#hawaian-pic").click(function () {
-      $("#hawaian-whole").toggle();
-      $("#hawaian-text").toggle();
-    });
+  return parseInt(flavour);
+}
 
-    $("#chicken-image").click(function () {
-      $("#chicken-whole").toggle();
-      $("#chicken-text").toggle();
-    });
-  });
+function getSize(){
+  var size = document.getElementById("size").value
 
+  return parseInt(size);
+}
 
-  $("#vegeterian-image").click(function () {
-    $("#vegeterian-whole").toggle();
-    $("#vegeterian-text").toggle();
-  });
+function getCrust(){
+  var crust = document.getElementById("crust").value
 
-  $("#hawaian-pic").click(function () {
-    $("#hawaian-whole").toggle();
-    $("#hawaian-text").toggle();
-  });
-
-  $("#chicken-image").click(function () {
-    $("#chicken-whole").toggle();
-    $("#chicken-text").toggle();
-  });
+  return parseInt(size);
+}
 
 
+function getToppings(){
+  var toppings = document.getElementById("toppings").value
 
+  return parseInt(toppings);
+}
 
-$("#vegeterian-image").click(function () {
-    $("#vegeterian-whole").toggle();
-    $("#vegeterian-text").toggle();
-  });
+function getNumber(){
+  var number = document.getElementById("number").value
 
-  $("#hawaian-pic").click(function () {
-    $("#hawaian-whole").toggle();
-    $("#hawaian-text").toggle();
-  });
+  return parseInt(number);
+}
 
-  $("#chicken-image").click(function () {
-    $("#chicken-whole").toggle();
-    $("#chicken-text").toggle();
-  });
+function getCost(){
+  var cost =(getCrust()+getFlavour()+getSize()+getToppings());
+  alert("Thank you for using Rock pizza services,your total amounts to" +(cost));
+
+};
 
