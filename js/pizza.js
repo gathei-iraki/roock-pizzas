@@ -13,7 +13,7 @@ function getSize(){
 function getCrust(){
   var crust = document.getElementById("crust").value
 
-  return parseInt(size);
+  return parseInt(crust);
 }
 
 
@@ -30,8 +30,8 @@ function getNumber(){
 }
 
 function getCost(){
-  var cost =(getCrust()+getFlavour()+getSize()+getToppings());
-  alert("Thank you for using Rock pizza services,your total amounts to" +(cost));
+  var Totalcost =(getFlavour()+getSize()+getCrust()+getToppings());
+  alert("Thank you for using Rock pizza services,your total amounts to" +(Totalcost));
 
 };
 
